@@ -1,0 +1,8 @@
+---
+- name: 'Install homebrew'
+  hosts: 'all'
+  gather_facts: true
+  become: true
+
+  roles:
+    - role: 'johanneskastl.install_homebrew_on_linux'
