@@ -21,5 +21,8 @@
 - name: 'Run playbook-all_nodes-install_git-core.yml'
   import_playbook: playbook-all_nodes-install_git-core.yml
 
+- name: 'Run playbook-all_nodes-install_gcc.yml'
+  import_playbook: playbook-all_nodes-install_gcc.yml
+
 - name: 'Run playbook-all_nodes-install_homebrew.yml'
   import_playbook: playbook-all_nodes-install_homebrew.yml
