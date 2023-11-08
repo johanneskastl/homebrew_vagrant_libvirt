@@ -6,3 +6,4 @@
 
   roles:
     - role: 'johanneskastl.install_homebrew_on_linux'
+      modify_bashrc_for_homebrew: true
